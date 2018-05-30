@@ -1,0 +1,113 @@
+.header {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header .logo {
+  display: block;
+  height: 125px;
+  float: left;
+}
+.header .logo img {
+  width: 178px;
+  height: 82px;
+  float: left;
+  margin-top: 33px;
+  margin-left: 50px;
+}
+.main {
+  width: 100%;
+  padding: 100px 0 150px;
+  background: #f2f2f2;
+}
+.main .content {
+  width: 1157px;
+  margin: 0 auto;
+}
+.main .content img {
+  width: 570px;
+  float: left;
+  margin-top: 70px;
+}
+.main .content form {
+  float: right;
+  padding: 20px 20px 65px 30px;
+  background: #fff;
+}
+.main .content form .scanning {
+  width: 100%;
+  height: 100px;
+}
+.main .content form .scanning span {
+  float: right;
+  background: url("../img/bg09.png") no-repeat center 100%;
+  width: 77px;
+  height: 77px;
+  display: block;
+  cursor: pointer;
+}
+.main .content form .scanning p {
+  float: right;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #009241;
+  color: #009241;
+  font-size: 14px;
+  padding-left: 45px;
+  line-height: 30px;
+  margin-right: 20px;
+  background: url("../img/bg10.png") no-repeat 8px;
+}
+.main .content form h4 {
+  font-size: 18px;
+  color: #414141;
+  line-height: 18px;
+  padding-bottom: 35px;
+}
+.main .content form .userName {
+  background: url('../img/bg12.png') no-repeat left;
+  font-size: 14px;
+  color: #969696;
+  width: 453px;
+  margin-bottom: 39px;
+  height: 53px;
+  line-height: 53px;
+  border: 1px solid #bfbfbf;
+  padding-left: 73px;
+}
+.main .content form .passWord {
+  background: url('../img/bg11.png') no-repeat left;
+  font-size: 14px;
+  color: #969696;
+  width: 453px;
+  margin-bottom: 39px;
+  height: 53px;
+  line-height: 53px;
+  border: 1px solid #bfbfbf;
+  padding-left: 73px;
+}
+.main .content form button {
+  display: block;
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  color: #f5f5f5;
+  line-height: 55px;
+  background: #ff0036;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 18px;
+  outline: none;
+}
+.main .content form .page {
+  text-align: right;
+  line-height: 12px;
+  padding: 20px 0 15px;
+  margin-right: 25px;
+}
+.main .content form .page a {
+  font-size: 14px;
+  color: #929191;
+  display: inline-block;
+  margin-left: 25px;
+  line-height: 16px;
+}

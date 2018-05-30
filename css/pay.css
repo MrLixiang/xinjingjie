@@ -1,0 +1,236 @@
+.header .main .content .main-nav li {
+  margin-right: 70px;
+}
+.content-main {
+  width: 100%;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding: 0 0 56px;
+}
+.content-main .order-progress {
+  width: 999px;
+  margin: 0 auto 55px;
+  padding: 30px 0 53px;
+  background: url("../img/bg44.png") no-repeat bottom;
+}
+.content-main .order-progress li {
+  font-size: 14px;
+  color: #3c3c3c;
+  line-height: 35px;
+  float: left;
+}
+.content-main .order-progress li:first-child {
+  margin-right: 180px;
+}
+.content-main .order-progress li:nth-of-type(2) {
+  margin-right: 165px;
+}
+.content-main .order-progress li:nth-of-type(3) {
+  margin-right: 165px;
+}
+.content-main .order-progress li:nth-of-type(4) {
+  margin-right: 195px;
+}
+.content-main .order-details {
+  width: 1200px;
+  border-bottom: 1px solid #c5c5c5;
+  margin: 0 auto 20px;
+}
+.content-main .order-details .order-progress-code {
+  float: left;
+}
+.content-main .order-details .order-progress-code img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-left: 36px;
+}
+.content-main .order-details .order-progress-code p {
+  font-size: 14px;
+  color: #3c3c3c;
+  float: left;
+  line-height: 100px;
+  display: block;
+}
+.content-main .order-details .order-progress-money {
+  float: right;
+  margin-top: 30px;
+}
+.content-main .order-details .order-progress-money .ord-pro-money-top {
+  margin: 0 45px 25px 0;
+}
+.content-main .order-details .order-progress-money .ord-pro-money-top p {
+  font-size: 12px;
+  float: left;
+  line-height: 31px;
+  color: #f11023;
+}
+.content-main .order-details .order-progress-money .ord-pro-money-top p span {
+  font-size: 24px;
+}
+.content-main .order-details .order-progress-money .ord-pro-money-top a {
+  width: 31px;
+  height: 31px;
+  display: block;
+  float: left;
+  background: url("../img/bg45.png") no-repeat center;
+}
+.content-main .order-details .order-progress-money .ord-pro-money-down {
+  width: 114px;
+  height: 32px;
+  background: #a1a1a1;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #f1f1f1;
+  margin-right: 42px;
+}
+.content-main .pay-method-list {
+  width: 1131px;
+  margin: 0 auto;
+}
+.content-main .pay-method-list li {
+  height: 61px;
+  border: 4px solid #85a1d4;
+  margin-bottom: 25px;
+  background: #fff;
+}
+.content-main .pay-method-list li p {
+  float: left;
+  line-height: 61px;
+  font-size: 12px;
+  color: #a0a0a0;
+}
+.content-main .pay-method-list li label i:before {
+  top: 30px;
+  left: 30px;
+}
+.content-main .pay-method-list li .pay-method-logo {
+  display: block;
+  float: left;
+  background: url("../img/bg46.png") no-repeat center;
+  width: 26px;
+  height: 26px;
+  margin: 17px 15px 0 60px;
+}
+.content-main .pay-method-list li .bank-info {
+  margin-right: 25px;
+}
+.content-main .pay-method-list li .card-number {
+  margin-right: 35px;
+}
+.content-main .pay-method-list li .bank-amount {
+  float: right;
+  margin-right: 35px;
+}
+.content-main .pay-method-list li .bank-amount span {
+  font-size: 16px;
+  color: #f11023;
+}
+.content-main .others-pay-method-list {
+  width: 1131px;
+  margin: 0 auto 55px;
+}
+.content-main .others-pay-method-list p {
+  line-height: 38px;
+  height: 38px;
+  width: 149px;
+  text-align: center;
+  border: 2px;
+}
+.content-main .others-pay-method-list .others-pay-method {
+  float: left;
+  border: solid #2f2f2f;
+  background: #2f2f2f;
+  margin-right: 9px;
+}
+.content-main .others-pay-method-list .others-pay-method a {
+  color: #f1f1f1;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content-main .others-pay-method-list .net-silver {
+  float: left;
+  border: dotted #c9c9c9;
+}
+.content-main .others-pay-method-list .net-silver a {
+  font-size: 14px;
+  color: #85a1d4;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content-main .pay-password-main {
+  width: 1131px;
+  margin: 0 auto;
+}
+.content-main .pay-password-main .pay-password-security {
+  font-size: 12px;
+  color: #929292;
+  background: url("../img/bg47.png") no-repeat left;
+  padding-left: 18px;
+  line-height: 50px;
+}
+.content-main .pay-password-main .pay-password-title {
+  font-size: 14px;
+  color: #929292;
+  line-height: 26px;
+}
+.content-main .pay-password-main .pay-password-box .pay-password {
+  padding: 4px 0;
+  height: 30px;
+  width: 257px;
+  float: left;
+  background: #fff;
+  color: #c9c9c9;
+  border: 2px solid #c9c9c9;
+}
+.content-main .pay-password-main .pay-password-box .pay-password input {
+  float: left;
+  width: 42px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #c9c9c9;
+  border-right: 1px solid #c9c9c9;
+}
+.content-main .pay-password-main .pay-password-box .pay-password input:last-child {
+  border: none;
+}
+.content-main .pay-password-main .pay-password-box a {
+  line-height: 42px;
+  display: block;
+  float: left;
+  margin-left: 13px;
+  font-size: 12px;
+  color: #7f9cd2;
+}
+.content-main .pay-password-main .pay-password-info {
+  color: #c6c6c6;
+  font-size: 12px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.content-main .pay-password-main .pay-password-submit {
+  width: 140px;
+  height: 42px;
+  display: block;
+  cursor: pointer;
+  background: #7997d0;
+  font-size: 18px;
+  color: #f3f3f3;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.content-main .content-main-line {
+  width: 1200px;
+  margin: 0 auto;
+  height: 3px;
+  background: #c5c5c5;
+}

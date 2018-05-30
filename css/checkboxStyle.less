@@ -1,0 +1,40 @@
+ label{
+  position: relative;
+  text-indent: 18px;
+  i{
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      padding-left: 18px;
+      left: 0;
+      top: 50%;
+      margin-top: -8px;
+      cursor: pointer;
+      background: url("../img/checkboxTrue.png") no-repeat left;
+
+    }
+  }
+
+  input[type="checkbox"] {
+    display: none;
+    &:checked + i {
+      &:before {
+        content: "";
+       background: url("../img/checkbox.png") no-repeat left;
+      }
+    }
+  }
+
+  input[type="radio"] {
+    display: none;
+    &:checked + i {
+      &:before {
+        content: "";
+        background: url("../img/checkbox.png") no-repeat left;
+      }
+    }
+  }
+}

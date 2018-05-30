@@ -1,0 +1,140 @@
+.header .shortcut .nav .left .header-userName {
+  color: #f51439;
+  display: inline-block;
+  margin: 0 35px 0 30px;
+  padding-left: 18px;
+  background: url("../img/bg42.png") no-repeat left 4px;
+}
+.content-main {
+  width: 100%;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding: 30px 0 53px;
+}
+.content-main .order-progress {
+  width: 999px;
+  margin: 0 auto 42px;
+  padding-bottom: 53px;
+  background: url("../img/bg39.png") no-repeat bottom;
+}
+.content-main .order-progress li {
+  font-size: 14px;
+  color: #3c3c3c;
+  line-height: 35px;
+  float: left;
+}
+.content-main .order-progress li:first-child {
+  margin-right: 180px;
+}
+.content-main .order-progress li:nth-of-type(2) {
+  margin-right: 165px;
+}
+.content-main .order-progress li:nth-of-type(3) {
+  margin-right: 165px;
+}
+.content-main .order-progress li:nth-of-type(4) {
+  margin-right: 195px;
+}
+.content-main .content-main-info {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #3c3c3c;
+  line-height: 32px;
+  border-bottom: 1px solid #d2d2d2;
+  text-indent: 15px;
+  margin-bottom: 27px;
+}
+.content-main .content-main-info span {
+  float: right;
+  padding-right: 10px;
+}
+.content-main .address-management {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content-main .address-management li {
+  padding: 9px 9px 9px 20px;
+  border: 1px solid #f11426;
+  margin-bottom: 15px;
+}
+.content-main .address-management li p {
+  float: left;
+  font-size: 12px;
+  color: #464646;
+  line-height: 64px;
+}
+.content-main .address-management li input {
+  float: left;
+  margin: 26px 4px 0 13px;
+}
+.content-main .address-management li .address-info {
+  color: #f11426;
+  background: url("../img/bg40.png") no-repeat left 18px;
+  padding-left: 20px;
+}
+.content-main .address-management li .address-province {
+  margin-right: 8px;
+}
+.content-main .address-management li .address-city {
+  margin-right: 13px;
+}
+.content-main .address-management li .address-county {
+  margin-right: 8px;
+}
+.content-main .address-management li .address-detailed {
+  margin-right: 10px;
+}
+.content-main .address-management li .address-userName {
+  margin-right: 40px;
+}
+.content-main .address-management li .address-phone {
+  margin-right: 60px;
+}
+.content-main .address-management li .address-amend {
+  float: right;
+  cursor: pointer;
+  line-height: 32px;
+}
+.content-main .address-management li .address-amend span {
+  display: block;
+}
+.content-main .address-management li .address-amend .edit {
+  font-size: 12px;
+  color: #464646;
+}
+.content-main .address-management li .address-amend .edit:hover,
+.content-main .address-management li .address-amend .delete:hover {
+  text-decoration: underline;
+}
+.content-main .add-the-address {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content-main .add-the-address a {
+  width: 98px;
+  height: 28px;
+  line-height: 28px;
+  background: #3c3c3c;
+  border: 1px solid #b5b5b5;
+  text-align: center;
+  display: block;
+  float: left;
+  font-size: 12px;
+  color: #dfdfdf;
+}
+.content-main .pages {
+  margin-top: 86px;
+  text-align: center;
+}
+.content-main .pages a {
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
+  font-size: 12px;
+  color: #1a1a1a;
+  background: #fff;
+  border: 1px solid #f88993;
+  margin-right: 23px;
+}

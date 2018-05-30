@@ -1,0 +1,340 @@
+.header .shortcut .nav .left .header-userName {
+  color: #f51439;
+  display: inline-block;
+  margin: 0 35px 0 30px;
+  padding-left: 18px;
+  background: url("../img/bg42.png") no-repeat left 4px;
+}
+.content-main {
+  width: 100%;
+  margin: 30px auto 0;
+  background: #f2f2f2;
+  padding: 0 0 70px;
+}
+.content-main .confirm-orderBox {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content-main .confirm-orderBox .shopMenu {
+  line-height: 28px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav {
+  line-height: 28px;
+  float: left;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav li {
+  margin-right: 38px;
+  margin-left: 19px;
+  position: relative;
+  float: left;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav li a {
+  font-size: 14px;
+  color: #181818;
+  float: left;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav li a span {
+  padding-left: 8px;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav li:hover a,
+.content-main .confirm-orderBox .shopMenu .order-top-nav li.on a,
+.content-main .confirm-orderBox .shopMenu .order-top-nav li span {
+  color: #f11426;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav li:after {
+  content: '';
+  width: 1px;
+  height: 13px;
+  position: absolute;
+  right: -28px;
+  top: 7px;
+  background: #dcdcdc;
+  display: block;
+}
+.content-main .confirm-orderBox .shopMenu .order-top-nav li:last-child:after {
+  content: '';
+  width: 0;
+  height: 0;
+  display: block;
+}
+.content-main .confirm-orderBox .shopMenu .clearing {
+  float: right;
+}
+.content-main .confirm-orderBox .shopMenu .clearing .clearingInfo {
+  font-size: 12px;
+  color: #181818;
+  margin-right: 10px;
+  float: left;
+}
+.content-main .confirm-orderBox .shopMenu .clearing .clearingAmount {
+  font-size: 12px;
+  color: #f11426;
+  float: left;
+}
+.content-main .confirm-orderBox .shopMenu .clearing .clearingBtn {
+  float: right;
+  width: 53px;
+  height: 21px;
+  background: #f11023;
+  font-size: 14px;
+  color: #ededed;
+  text-align: center;
+  line-height: 21px;
+  margin: 3px 1px 0 32px;
+  cursor: pointer;
+}
+.content-main .confirm-orderBox .confirm-order-info {
+  font-size: 14px;
+  color: #9c9c9c;
+  line-height: 60px;
+  padding-left: 11px;
+}
+.content-main .confirm-orderBox .confirm-order-info dt {
+  float: left;
+}
+.content-main .confirm-orderBox .confirm-order-info dt.h1 {
+  margin-right: 120px;
+}
+.content-main .confirm-orderBox .confirm-order-info dt.h1 label i:before {
+  top: 10px;
+}
+.content-main .confirm-orderBox .confirm-order-info dt.h1 label em {
+  margin-left: 25px;
+}
+.content-main .confirm-orderBox .confirm-order-info dt.h2 {
+  margin-right: 420px;
+}
+.content-main .confirm-orderBox .confirm-order-info dd {
+  float: left;
+  margin-right: 125px;
+}
+.content-main .confirm-orderBox .confirm-order-info dd:last-child {
+  margin: 0;
+}
+.content-main .content-list {
+  width: 1200px;
+  margin: 0 auto 25px;
+}
+.content-main .content-list .shop-name {
+  line-height: 42px;
+  padding-left: 11px;
+}
+.content-main .content-list .shop-name label i:before {
+  top: 24px;
+}
+.content-main .content-list .shop-name input {
+  float: left;
+  margin-top: 17px;
+}
+.content-main .content-list .shop-name h6 {
+  float: left;
+  line-height: 46px;
+  text-indent: 42px;
+  font-size: 14px;
+  color: #9c9c9c;
+  margin-right: 52px;
+}
+.content-main .content-list .shop-name .coupons {
+  float: left;
+  position: relative;
+  width: 77px;
+  height: 19px;
+  margin-top: 12px;
+}
+.content-main .content-list .shop-name .coupons p {
+  width: 57px;
+  padding: 0 12px 0 6px;
+  height: 17px;
+  border: 1px dotted #f13847;
+  text-align: center;
+  font-size: 12px;
+  color: #f11426;
+  cursor: pointer;
+  line-height: 17px;
+  background: url("../img/bg51.png") no-repeat -1px;
+}
+.content-main .content-list .shop-name .coupons p span {
+  display: inline-block;
+  width: 9px;
+  height: 17px;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  background: url("../img/bg52.png") no-repeat center;
+}
+.content-main .content-list .shop-name .coupons ul {
+  display: none;
+  position: absolute;
+  border: 1px solid #f13847;
+  border-top: none;
+  left: 0;
+  width: 75px;
+  right: 0;
+  top: 19px;
+  background: rgba(0, 0, 0, 0.31);
+}
+.content-main .content-list .shop-name .coupons ul li {
+  text-align: center;
+  margin-bottom: 3px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f11426;
+}
+.content-main .content-list .container {
+  margin-bottom: 10px;
+}
+.content-main .content-list .container .product-info-down {
+  padding: 25px 43px 28px 10px;
+  border: 1px solid #bdbdbd;
+  background: #f5f5f5;
+}
+.content-main .content-list .container .product-info-down label i:before {
+  top: 10px;
+}
+.content-main .content-list .container .product-info-down img {
+  width: 111px;
+  height: 111px;
+  float: left;
+  margin-left: 42px;
+}
+.content-main .content-list .container .product-info-down .pro-down-product {
+  width: 205px;
+  text-align: left;
+  padding-left: 5px;
+  font-size: 12px;
+  float: left;
+  color: #565656;
+  margin-right: 85px;
+}
+.content-main .content-list .container .product-info-down .pro-down-info {
+  text-align: left;
+  float: left;
+  font-size: 14px;
+  color: #9c9c9c;
+  margin-right: 105px;
+}
+.content-main .content-list .container .product-info-down .pro-down-info a {
+  width: 15px;
+  font-size: 14px;
+  color: #9c9c9c;
+  display: block;
+}
+.content-main .content-list .container .product-info-down .pro-down-info a.on {
+  color: #393939;
+}
+.content-main .content-list .container .product-info-down .pro-down-unitPrice {
+  width: 78px;
+  background: #d9d9d9;
+  text-align: center;
+  float: left;
+  margin-right: 75px;
+}
+.content-main .content-list .container .product-info-down .pro-down-unitPrice p {
+  font-size: 12px;
+  color: #f11023;
+}
+.content-main .content-list .container .product-info-down .pro-down-unitPrice p s {
+  font-size: 12px;
+  color: #aaa;
+}
+.content-main .content-list .container .product-info-down .pro-down-unitPrice p.activity {
+  color: #eaeaea;
+  text-align: left;
+  text-indent: 10px;
+  line-height: 21px;
+  cursor: pointer;
+  background: #262626 url("../img/bg50.png") no-repeat 65px;
+}
+.content-main .content-list .container .product-info-down .pro-down-quantity {
+  width: 77px;
+  height: 22px;
+  font-size: 12px;
+  color: #5c5858;
+  padding: 0 8px;
+  background: #d9d9d9;
+  line-height: 22px;
+  float: left;
+  margin-right: 60px;
+}
+.content-main .content-list .container .product-info-down .pro-down-quantity p {
+  float: left;
+  cursor: pointer;
+}
+.content-main .content-list .container .product-info-down .pro-down-quantity input {
+  float: left;
+  width: 42px;
+  height: 20px;
+  border: 1px solid #b5b5b5;
+  background: #f2f2f2;
+  margin: 0 9px;
+  text-align: center;
+}
+.content-main .content-list .container .product-info-down .scale {
+  font-size: 12px;
+  color: #f11023;
+  float: left;
+}
+.content-main .content-list .container .product-info-down .operation {
+  float: right;
+}
+.content-main .content-list .container .product-info-down .operation a {
+  display: block;
+  font-size: 12px;
+  color: #6a6a6a;
+  margin-bottom: 35px;
+}
+.content-main .content-main-bottom {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 60px;
+  background: #d6d6d6;
+}
+.content-main .content-main-bottom .contentRight {
+  float: left;
+}
+.content-main .content-main-bottom .contentRight li {
+  font-size: 12px;
+  color: #3f3f3f;
+  margin-right: 24px;
+  float: left;
+}
+.content-main .content-main-bottom .contentRight li a {
+  font-size: 12px;
+  color: #3f3f3f;
+}
+.content-main .content-main-bottom .contentRight li.h1 {
+  margin-left: 10px;
+}
+.content-main .content-main-bottom .contentRight li.h1 label i:before {
+  top: 9px;
+}
+.content-main .content-main-bottom .contentRight li.h1 label em {
+  margin-left: 25px;
+}
+.content-main .content-main-bottom .contentLeft {
+  float: right;
+}
+.content-main .content-main-bottom .contentLeft li {
+  float: left;
+  margin-left: 16px;
+  font-size: 12px;
+  color: #3f3f3f;
+}
+.content-main .content-main-bottom .contentLeft li.total_price,
+.content-main .content-main-bottom .contentLeft li span {
+  color: #f11023;
+}
+.content-main .content-main-bottom .contentLeft li:first-child {
+  margin-right: 32px;
+}
+.content-main .content-main-bottom .contentLeft li input {
+  width: 53px;
+  height: 21px;
+  font-size: 14px;
+  color: #e7e7e7;
+  background: #f11023;
+  text-align: center;
+  margin-top: 17px;
+  cursor: pointer;
+}

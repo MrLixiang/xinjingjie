@@ -1,0 +1,503 @@
+.header {
+  .banner {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    .banner-list {
+      position: absolute;
+      height: auto;
+      overflow: hidden;
+      width: 100%;
+      left: 0;
+      top: 0;
+      li {
+        width: 100%;
+        float: left;
+        height: auto;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+    }
+    .pages {
+      text-align: center;
+      position: absolute;
+      bottom: 17px;
+      width: 100%;
+      span {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        margin: 0 17px;
+        cursor: pointer;
+        background: #d2d2d2;
+        &.on {
+          background: #ff4e00;
+        }
+      }
+    }
+  }
+}
+
+.index-main {
+  width: 100%;
+  background: #ececec;
+  .snap-up-big {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    img {
+      width: 1200-2px;
+      height: 91-2px;
+      border: 1px solid #ececec;
+    }
+    &:hover img {
+      border: 1px solid #ff0014;
+    }
+  }
+  .recommend {
+    width: 1200px;
+    margin: 0 auto 80px;
+    .title {
+      width: 180px;
+      margin: 0 auto;
+      position: relative;
+      text-align: center;
+      padding: 20px 0 10px;
+      .white {
+        float: left;
+        width: 22px;
+        height: 58px;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background: #ececec;
+        border-radius: 7px;
+        span {
+          display: block;
+          font-size: 14px;
+          color: #87000b;
+          line-height: 14px;
+          padding: 8px 0;
+        }
+      }
+      .red {
+        width: 58px;
+        height: 58px;
+        float: left;
+        line-height: 58px;
+        padding-right: 5px;
+        text-align: right;
+        background: #f11023;
+        border-radius: 10px;
+        font-size: 30px;
+        color: #fff;
+        margin-right: 15px;
+      }
+      h5 {
+        float: left;
+        font-size: 24px;
+        color: #434343;
+        line-height: 58px;
+      }
+    }
+    .recommend-list {
+      width: 1200px;
+      margin: 0 auto;
+      li {
+        padding-bottom: 13px;
+        margin-left: 43px;
+        &:first-child {
+          margin-left: 0;
+        }
+        float: left;
+        background: #fff;
+        width: 369px;
+        border: 1px solid #dadada;
+        &:hover {
+          border: 1px solid #f11023;
+        }
+        a {
+          display: block;
+          margin-bottom: 5px;
+          img {
+            width: 369px;
+            height: 214px;
+          }
+
+        }
+        p {
+          padding-left: 8px;
+        }
+        .info {
+          line-height: 30px;
+          text-align: left;
+          &:hover a {
+            color: #f11023;
+          }
+          a {
+            font-size: 14px;
+            color: #000;
+          }
+        }
+        .price {
+          font-size: 12px;
+          color: #8d8d8d;
+          line-height: 24px;
+          span {
+            text-decoration: line-through;
+            padding-left: 6px;
+          }
+        }
+        .money {
+          font-size: 14px;
+          color: #1c1c1c;
+          line-height: 24px;
+          span {
+            font-size: 16px;
+            color: #f11023;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  .brand-street {
+    width: 1200px;
+    margin: 0 auto 55px;
+    .recommend-title {
+      h5 {
+        float: left;
+        font-size: 18px;
+        color: #f11023;
+        padding-left: 10px;
+        position: relative;
+        &:after {
+          content: '';
+          width: 3px;
+          height: 6px;
+          position: absolute;
+          left: 0;
+          top: 13px;
+          background: #000;
+        }
+      }
+      h6 {
+        float: left;
+        font-size: 14px;
+        color: #898989;
+        padding-left: 5px;
+        line-height: 16px;
+        margin-top: 8px;
+      }
+    }
+    .content {
+      position: relative;
+      margin-bottom: 15px;
+      .snap-up {
+        float: left;
+        width: 488px;
+        height: 576px;
+      }
+      .brands {
+        float: left;
+        width: 712px;
+        margin-top: 16px;
+        li {
+          float: left;
+          margin: 1px;
+          border: 1px solid #ececec;
+          &:hover {
+            border: 1px solid #f10044;
+          }
+
+        }
+      }
+      .more {
+        position: absolute;
+        bottom: 17px;
+        right: 118px;
+        padding: 0 15px;
+        line-height: 24px;
+        background: #e0e0e0;
+        font-size: 14px;
+        color: #f11023;
+        &:hover {
+          background: #f11023;
+          color: #e0e0e0;
+        }
+        span {
+          margin-left: 24px;
+        }
+      }
+    }
+
+  }
+  .product-main {
+    width: 1200px;
+    margin: 0 auto;
+    .title {
+      margin-top: 57px;
+      h5 {
+        float: left;
+        color: #000;
+        padding-left: 10px;
+        position: relative;
+        font-size: 18px;
+        &:after {
+          content: '';
+          width: 3px;
+          height: 6px;
+          position: absolute;
+          left: 0;
+          top: 25px;
+          background: #000;
+        }
+        span {
+          font-size: 30px;
+        }
+      }
+      h6 {
+        float: left;
+        font-size: 18px;
+        color: #f11023;
+        padding-left: 10px;
+        line-height: 18px;
+        margin-top: 18px;
+      }
+    }
+    .list {
+      .snap-up-big {
+        img {
+          margin: 20px 0 20px;
+        }
+
+      }
+      .big-pic {
+        float: left;
+        width: 329px;
+        height: 459px;
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        img {
+          width: 329px;
+          height: 459px;
+          display: block;
+        }
+      }
+      .product-list {
+        width: 580px;
+        float: left;
+        overflow: hidden;
+        li {
+          float: left;
+          margin-right: 1px;
+          background: #fff;
+          text-align: center;
+          margin-bottom: 1px;
+          &:hover h6 a {
+            color: #a2a2a2;
+          }
+          &:hover p a {
+            color: #ff0014;
+          }
+          &:nth-of-type(3),
+          &:nth-of-type(4) {
+            margin-bottom: 0;
+            padding-bottom: 1px;
+          }
+          h6 {
+            margin-top: 10px;
+            line-height: 20px;
+            a {
+              font-size: 16px;
+              color: #ff0014;
+            }
+          }
+          p {
+            line-height: 16px;
+            margin-bottom: 20px;
+            a {
+              color: #a2a2a2;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .hot-list {
+        float: left;
+        margin-left: 1px;
+        margin-right: 1px;
+        li {
+          margin-bottom: 1px;
+          background: #fff;
+          position: relative;
+          &:hover .hot a {
+            background: #fff;
+            color: #f00;
+
+          }
+          &:nth-of-type(3) {
+            margin-bottom: 0;
+          }
+          a {
+            display: block;
+            img {
+              width: 289px;
+              height: 109px;
+            }
+          }
+          .info {
+            float: left;
+            margin: 24px 18px 3px 28px;
+            line-height: 16px;
+            a {
+              font-size: 12px;
+              color: #383838;
+            }
+          }
+          .money {
+            float: left;
+            margin: 24px 18px 3px 28px;
+            line-height: 16px;
+            a {
+              float: left;
+              font-size: 14px;
+              color: #f11023;
+              span {
+                color: #f11023;
+              }
+            }
+          }
+          .hot {
+            width: 44px;
+            height: 20px;
+            background: #f11023;
+            position: absolute;
+            top: 0;
+            text-align: center;
+            line-height: 20px;
+            left: 0;
+            a {
+              font-size: 14px;
+              color: #fff;
+              display: block;
+              &：hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .indexBottom {
+    width: 1200px;
+    margin: 77px auto 0;
+    h5 {
+      width: 1170px;
+      height: 38px;
+      line-height: 38px;
+      font-size: 18px;
+      color: #f5f5f5;
+      text-align: center;
+      margin-bottom: 19px;
+      background: #f00;
+      padding: 0 15px;
+      a {
+        font-size: 12px;
+        color: #f0f0f0;
+        float: right;
+      }
+    }
+    .indexBottomMain{
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      height: 275px;
+      .bottomList {
+        width: 1041px;
+        margin: 0  0 0 -520px;
+        height: 275px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        .bottomListMain{
+          position: absolute;
+          top: 0;
+          left: 0;
+          .item {
+            float: left;
+            width: 194px;
+            height: 273px;
+            border: 1px solid #d2d2d2;
+            margin: 0 6px;
+            .itemPic {
+              img {
+                width: 194px;
+                height: 188px;
+              }
+            }
+            .item-info {
+              width: 174px;
+              line-height: 20px;
+              padding: 0 10px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              a {
+                font-size: 12px;
+                color: #454545;
+              }
+            }
+            .itemMoney{
+              font-size: 12px;
+              color: #fe0000;
+              line-height: 46px;
+              padding-left: 10px;
+              span{
+                font-size: 14px;
+                padding-right: 15px;
+              }
+              s{
+                font-size: 12px;
+                color: #454545;
+              }
+            }
+            &:hover{
+              border: 1px solid #f00;
+            }
+          }
+        }
+      }
+      .prev,
+      .next{
+        display: block;
+        width: 18px;
+        height: 36px;
+        position: absolute;
+        top: 50%;
+        margin-top: -18px;
+        &.prev{
+          left: 34px;
+          background: url("../img/bg56.png") no-repeat center;
+        }
+        &.next{
+          right: 34px;
+          background: url("../img/bg57.png") no-repeat center;
+        }
+      }
+    }
+
+
+  }
+}

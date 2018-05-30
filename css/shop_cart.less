@@ -1,0 +1,370 @@
+.header {
+  .shortcut {
+    .nav {
+      .left {
+        .header-userName {
+          color: #f51439;
+          display: inline-block;
+          margin: 0 35px 0 30px;
+          padding-left: 18px;
+          background: url("../img/bg42.png") no-repeat left 4px;
+        }
+      }
+    }
+  }
+
+}
+
+.content-main {
+  width: 100%;
+  margin: 30px auto 0;
+  background: #f2f2f2;
+  padding: 0 0 70px;
+  .confirm-orderBox {
+    width: 1200px;
+    margin: 0 auto;
+    .shopMenu {
+      line-height: 28px;
+      border-bottom: 1px solid #d6d6d6;
+      .order-top-nav {
+        line-height: 28px;
+        float: left;
+        li {
+          margin-right: 38px;
+          margin-left: 19px;
+          position: relative;
+          float: left;
+          a {
+            font-size: 14px;
+            color: #181818;
+            float: left;
+            span {
+              padding-left: 8px;
+            }
+          }
+          &:hover a,
+          &.on a,
+          span {
+            color: #f11426;
+          }
+          &:after {
+            content: '';
+            width: 1px;
+            height: 13px;
+            position: absolute;
+            right: -28px;
+            top: 7px;
+            background: #dcdcdc;
+            display: block;
+          }
+          &:last-child {
+            &:after {
+              content: '';
+              width: 0;
+              height: 0;
+              display: block;
+            }
+          }
+        }
+      }
+      .clearing {
+        float: right;
+        .clearingInfo {
+          font-size: 12px;
+          color: #181818;
+          margin-right: 10px;
+          float: left;
+        }
+        .clearingAmount {
+          font-size: 12px;
+          color: #f11426;
+          float: left;
+        }
+        .clearingBtn {
+          float: right;
+          width: 53px;
+          height: 21px;
+          background: #f11023;
+          font-size: 14px;
+          color: #ededed;
+          text-align: center;
+          line-height: 21px;
+          margin: 3px 1px 0 32px;
+          cursor: pointer;
+        }
+      }
+    }
+    .confirm-order-info {
+      font-size: 14px;
+      color: #9c9c9c;
+      line-height: 60px;
+      padding-left: 11px;
+      dt {
+        float: left;
+        &.h1 {
+          margin-right: 120px;
+          label {
+            i {
+              &:before {
+                top: 10px;
+              }
+            }
+            em{
+              margin-left: 25px;
+            }
+          }
+
+        }
+        &.h2 {
+          margin-right: 420px;
+        }
+      }
+      dd {
+        float: left;
+        margin-right: 125px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+
+    }
+  }
+  .content-list {
+    width: 1200px;
+    margin: 0 auto 25px;
+    .shop-name {
+      line-height: 42px;
+      padding-left: 11px;
+      label{
+        i{
+          &:before{
+            top: 24px;
+          }
+        }
+      }
+      input {
+        float: left;
+        margin-top: 17px;
+      }
+      h6 {
+        float: left;
+        line-height: 46px;
+        text-indent: 42px;
+        font-size: 14px;
+        color: #9c9c9c;
+        margin-right: 52px;
+      }
+      .coupons {
+        float: left;
+        position: relative;
+        width: 77px;
+        height: 19px;
+        margin-top: 12px;
+        p {
+          width: 57px;
+          padding: 0 12px 0 6px;
+          height: 17px;
+          border: 1px dotted #f13847;
+          text-align: center;
+          font-size: 12px;
+          color: #f11426;
+          cursor: pointer;
+          line-height: 17px;
+          background: url("../img/bg51.png") no-repeat -1px;
+          span {
+            display: inline-block;
+            width: 9px;
+            height: 17px;
+            position: absolute;
+            top: 0;
+            right: 5px;
+            background: url("../img/bg52.png") no-repeat center;
+          }
+        }
+        ul {
+          display: none;
+          position: absolute;
+          border: 1px solid #f13847;
+          border-top: none;
+          left: 0;
+          width: 75px;
+          right: 0;
+          top: 19px;
+          background: rgba(0, 0, 0, 0.31);
+          li {
+            text-align: center;
+            margin-bottom: 3px;
+            font-size: 12px;
+            line-height: 14px;
+            color: #f11426;
+          }
+        }
+      }
+    }
+    .container {
+      margin-bottom: 10px;
+      .product-info-down {
+        padding: 25px 43px 28px 10px;
+        border: 1px solid #bdbdbd;
+        background: #f5f5f5;
+        label{
+          i{
+            &:before{
+              top: 10px;
+            }
+          }
+        }
+        img {
+          width: 111px;
+          height: 111px;
+          float: left;
+          margin-left: 42px;
+        }
+        .pro-down-product {
+          width: 205px;
+          text-align: left;
+          padding-left: 5px;
+          font-size: 12px;
+          float: left;
+          color: #565656;
+          margin-right: 85px;
+        }
+        .pro-down-info {
+          text-align: left;
+          float: left;
+          font-size: 14px;
+          color: #9c9c9c;
+          margin-right: 105px;
+          a {
+            width: 15px;
+            font-size: 14px;
+            color: #9c9c9c;
+            display: block;
+            &.on {
+              color: #393939;
+            }
+          }
+        }
+        .pro-down-unitPrice {
+          width: 78px;
+          background: #d9d9d9;
+          text-align: center;
+          float: left;
+          margin-right: 75px;
+          p {
+            font-size: 12px;
+            color: #f11023;
+            s {
+              font-size: 12px;
+              color: #aaa;
+            }
+            &.activity {
+              color: #eaeaea;
+              text-align: left;
+              text-indent: 10px;
+              line-height: 21px;
+              cursor: pointer;
+              background: #262626 url("../img/bg50.png") no-repeat 65px;
+            }
+          }
+        }
+        .pro-down-quantity {
+          width: 77px;
+          height: 22px;
+          font-size: 12px;
+          color: #5c5858;
+          padding: 0 8px;
+          background: #d9d9d9;
+          line-height: 22px;
+          float: left;
+          margin-right: 60px;
+          p {
+            float: left;
+            cursor: pointer;
+          }
+          input {
+            float: left;
+            width: 42px;
+            height: 20px;
+            border: 1px solid #b5b5b5;
+            background: #f2f2f2;
+            margin: 0 9px;
+            text-align: center;
+          }
+        }
+        .scale {
+          font-size: 12px;
+          color: #f11023;
+          float: left;
+        }
+        .operation {
+          float: right;
+          a {
+            display: block;
+            font-size: 12px;
+            color: #6a6a6a;
+            margin-bottom: 35px;
+          }
+        }
+      }
+    }
+  }
+  .content-main-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 60px;
+    background: #d6d6d6;
+    .contentRight {
+      float: left;
+      li {
+        font-size: 12px;
+        color: #3f3f3f;
+        margin-right: 24px;
+        a {
+          font-size: 12px;
+          color: #3f3f3f;
+        }
+        float: left;
+        &.h1 {
+          margin-left: 10px;
+          label {
+            i {
+              &:before {
+                top: 9px;
+              }
+            }
+            em{
+              margin-left: 25px;
+            }
+          }
+        }
+      }
+    }
+    .contentLeft {
+      float: right;
+      li {
+        float: left;
+        margin-left: 16px;
+        font-size: 12px;
+        color: #3f3f3f;
+        &.total_price,
+        span {
+          color: #f11023;
+        }
+        &:first-child {
+          margin-right: 32px;
+        }
+        input {
+          width: 53px;
+          height: 21px;
+          font-size: 14px;
+          color: #e7e7e7;
+          background: #f11023;
+          text-align: center;
+          margin-top: 17px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
